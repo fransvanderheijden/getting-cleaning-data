@@ -5,4 +5,4 @@ The zip file UCI_tidydata contains the tidy data file of the Peer-graded Assignm
 
 The script run_analysis.R executes the process of getting, cleaning and merging the data of the project into a tidy data set
 
-the summary shows the first observations of the data set and gives a summary of the variables
+The summary_tidy_data.txt shows the first observations of the data set and gives a summary of the variables
