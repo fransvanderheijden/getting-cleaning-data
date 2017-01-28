@@ -1,0 +1,16 @@
+> head(total_set)
+       set subject activity   signal measure axis     value
+1 training       1  WALKING tBodyAcc  mean()    X 0.2885845
+2 training       1  WALKING tBodyAcc  mean()    X 0.2784188
+3 training       1  WALKING tBodyAcc  mean()    X 0.2796531
+4 training       1  WALKING tBodyAcc  mean()    X 0.2791739
+5 training       1  WALKING tBodyAcc  mean()    X 0.2766288
+6 training       1  WALKING tBodyAcc  mean()    X 0.2771988
+> summary(total_set)
+       set            subject                    activity         signal            measure              axis               value         
+ training:485232   Min.   : 1.00   LAYING            :128304   Length:679734      Length:679734      Length:679734      Min.   :-1.00000  
+ test    :194502   1st Qu.: 9.00   SITTING           :117282   Class :character   Class :character   Class :character   1st Qu.:-0.98122  
+                   Median :17.00   STANDING          :125796   Mode  :character   Mode  :character   Mode  :character   Median :-0.55219  
+                   Mean   :16.15   WALKING           :113652                                                            Mean   :-0.51134  
+                   3rd Qu.:24.00   WALKING_DOWNSTAIRS: 92796                                                            3rd Qu.:-0.09971  
+                   Max.   :30.00   WALKING_UPSTAIRS  :101904                                                            Max.   : 1.00000  
